@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>884156191456-2kkuilvpvh63rajtpgo2am4u3ij0393a.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.884156191456-2kkuilvpvh63rajtpgo2am4u3ij0393a</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDujHNs44XVfC9YuBYT2JCfoHhDnFE1iwc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>884156191456</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.app.clubedecompras</string>
+	<key>PROJECT_ID</key>
+	<string>cashback-acicla</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cashback-acicla.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:884156191456:ios:e9d00bd73e5b890139b685</string>
+</dict>
+</plist>

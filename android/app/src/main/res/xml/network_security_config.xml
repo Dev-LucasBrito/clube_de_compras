@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">https://clubedecompras.app.br</domain>
+        <domain includeSubdomains="true">https://clubedecompras.app.br/</domain>
+        <domain includeSubdomains="true">https://clubedecompras.app.br/API/Clientes/Login</domain>
+        <domain includeSubdomains="true">https://clubedecompras.app.br/API/Clientes/ChangePassword</domain>
+        <domain includeSubdomains="true">https://clubedecompras.app.br/API/Clientes/RestorePassword</domain>
+        <domain includeSubdomains="true">https://clubedecompras.app.br/API/Clientes/Register</domain>
+        <domain includeSubdomains="true">http://clubedecompras.app.br</domain>
+        <domain includeSubdomains="true">http://clubedecompras.app.br/</domain>
+        <domain includeSubdomains="true">clubedecompras.app.br</domain>
+    </domain-config>
+</network-security-config>

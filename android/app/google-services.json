@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "884156191456",
+    "project_id": "cashback-acicla",
+    "storage_bucket": "cashback-acicla.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884156191456:android:101f1b79485544bc39b685",
+        "android_client_info": {
+          "package_name": "com.clubedecompras.acicla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884156191456-0o6cd1u46cnlil4rvi0eagv6pbib50uv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUzv6hloZLTN6x6JsxVM0ArRl8xbZQBEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884156191456-0o6cd1u46cnlil4rvi0eagv6pbib50uv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "884156191456-2kkuilvpvh63rajtpgo2am4u3ij0393a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.app.clubedecompras"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
