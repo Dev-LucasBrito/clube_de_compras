@@ -9,6 +9,7 @@ import 'package:cashback/modules/main/profile/controller/profile_controller.dart
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
+import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
 import '../../statement/controller/statement_controller.dart';
 
@@ -171,6 +172,18 @@ class HomeController extends GetxController {
     await getMuralAcicla();
     await getMuralAssociados();
     await authController.doubleSaldo(authController.cpf);
+  }
+
+    final flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
+
+  void showLocalNotification(String title, String body, String img) {
+  
+    const iosNotificatonDetail = DarwinNotificationDetails();
+    const notificationDetails = NotificationDetails(
+      iOS: iosNotificatonDetail,
+   
+    );
+    flutterLocalNotificationsPlugin.show(0, title, body, notificationDetails);
   }
 
   @override

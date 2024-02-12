@@ -76,7 +76,7 @@ class HomePage extends StatelessWidget {
                     ),
                   ),
                   controller.page == 0
-                      ? const Flexible(child: HomeComponent())
+                      ?  Flexible(child: HomeComponent())
                       : controller.page == 1
                           ? const Flexible(child: StatementPage())
                           : controller.page == 3

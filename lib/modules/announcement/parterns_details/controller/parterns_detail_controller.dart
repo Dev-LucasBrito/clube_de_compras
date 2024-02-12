@@ -2,7 +2,6 @@ import 'dart:io';
 
 import 'package:cashback/core/components/alert_dialog/cashback_alert_dialog.dart';
 import 'package:cashback/core/components/text/cashback_text.dart';
-import 'package:cashback/core/controllers/auth_controller.dart';
 import 'package:cashback/core/models/parterns_cashback_model.dart';
 import 'package:cashback/core/provider/provider_api.dart';
 import 'package:flutter/material.dart';

@@ -14,7 +14,7 @@ void main() async {
     //Responsavel por iniciar a injeção de dependencia com o a lib GetX.
   WidgetsFlutterBinding.ensureInitialized();
 
-    //Responsevel por guardar dados em memoria do app.
+    //Responsevel por guardar dados em memoria do app. 
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );

@@ -8,10 +8,12 @@ import 'package:cashback/core/models/promotions_model.dart';
 import 'package:cashback/core/models/statement_model.dart';
 import 'package:cashback/core/theme/cashback_theme.dart';
 import 'package:cashback/core/utils/validators.dart';
+import 'package:cashback/modules/main/home/controller/home_controller.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_masked_text2/flutter_masked_text2.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'dart:math' as math; // import this
 
@@ -219,11 +221,11 @@ class CashbackCards {
                                 context: context,
                                 text: 'Esse parceiro é confiável');
                           },
-                          child: SizedBox(
+                          child: const SizedBox(
                             height: 15,
                             width: 15,
                             child: Stack(
-                              children: const [
+                              children: [
                                 Icon(
                                   FontAwesomeIcons.certificate,
                                   color: CashbackThemes.primaryRegular,
@@ -656,6 +658,7 @@ class CashbackCards {
       required ParternsCashbackModel parternsCashbackModel}) {
     return InkWell(
       onTap: () {
+        // Get.find<HomeController>().showLocalNotification("Cashback recebido!", 'Você recebeu R\$33,00 da ${parternsCashbackModel.title}', parternsCashbackModel.img)
         if (parternsCashbackModel.status == '2') {
           CashbackAlertDialog.alertInfoWithButton(
               context: context,

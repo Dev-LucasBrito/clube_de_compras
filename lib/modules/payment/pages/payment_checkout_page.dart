@@ -32,11 +32,11 @@ class PaymentCheckout extends StatelessWidget {
           return controller.statusPayment == StatusPayment.loading
               ? CircularRevealAnimation(
                   animation: controller.animation!,
-                  child: Scaffold(
+                  child: const Scaffold(
                     backgroundColor: Colors.blue,
                     body: Center(
                         child: Stack(
-                      children: const [
+                      children: [
                         Align(
                           alignment: Alignment.center,
                           child: Padding(

@@ -97,11 +97,11 @@ class ParternsDetailPage extends StatelessWidget {
                                           context: context,
                                           text: 'Esse parceiro é confiável');
                                     },
-                                    child: SizedBox(
+                                    child: const SizedBox(
                                       height: 21,
                                       width: 21,
                                       child: Stack(
-                                        children: const [
+                                        children: [
                                           Icon(
                                             FontAwesomeIcons.certificate,
                                             color:
@@ -163,7 +163,7 @@ class ParternsDetailPage extends StatelessWidget {
                                         onTap: () async {
                                           String googleUrl =
                                               '${controller.parterns!.link}';
-                                          print(googleUrl);
+                                        
                                           String url =
                                               googleUrl.contains('https://')
                                                   ? googleUrl

@@ -1,4 +1,3 @@
-import 'package:cashback/core/controllers/auth_controller.dart';
 import 'package:cashback/core/models/promotions_model.dart';
 import 'package:cashback/core/provider/provider_api.dart';
 import 'package:get/get.dart';
